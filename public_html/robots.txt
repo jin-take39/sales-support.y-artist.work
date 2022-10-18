@@ -1,1 +1,1 @@
-/home/yartist2022/domains/sales-support.y-artist.work/public_html/laravel/exment/public/robots.txt
+/var/www/html/yartist2022/domains/sales-support.y-artist.work/public_html/laravel/exment/public/robots.txt
