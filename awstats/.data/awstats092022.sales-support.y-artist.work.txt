@@ -1,0 +1,697 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202209 will be lost/reset.
+# Last config file used to build this data file was /home/yartist2022/domains/sales-support.y-artist.work/awstats/.data/awstats.sales-support.y-artist.work.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2135                
+POS_TIME 2808                
+POS_VISITOR 8386                
+POS_DAY 11079               
+POS_DOMAIN 3582                
+POS_LOGIN 3815                
+POS_ROBOT 3970                
+POS_WORMS 4384                
+POS_EMAILSENDER 4515                
+POS_EMAILRECEIVER 4658                
+POS_SESSION 11670               
+POS_SIDER 11877               
+POS_FILETYPES 4793                
+POS_DOWNLOADS 5036                
+POS_OS 5084                
+POS_BROWSER 5269                
+POS_SCREENSIZE 6146                
+POS_UNKNOWNREFERER 6220                
+POS_UNKNOWNREFERERBROWSER 6307                
+POS_ORIGIN 6389                
+POS_SEREFERRALS 6530                
+POS_PAGEREFS 6693                
+POS_SEARCHWORDS 6879                
+POS_KEYWORDS 7031                
+POS_MISC 2471                
+POS_ERRORS 7090                
+POS_CLUSTER 3671                
+POS_SIDER_400 7841                
+POS_SIDER_403 8077                
+POS_SIDER_404 7231                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221001192636 1 0 10138888566219
+FirstTime 20220901003709
+LastTime 20220929083211
+LastUpdate 20221002041551 1 0 0 0 0
+TotalVisits 95                  
+TotalUnique 54                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 54                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+FlashSupport 0 0 0
+AddToFavourites 0 14 0
+JavaEnabled 0 0 0
+TotalMisc 0 0 0
+RealPlayerSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 90 204 689975 29 39 60625
+1 0 0 0 0 0 0
+2 0 0 0 10 22 51652
+3 3 3 9302 3 11 33808
+4 1 1 3035 1 5 16726
+5 8 39 316495 8 30 123856
+6 3 3 7474 5 16 101295
+7 0 0 0 7 27 195779
+8 197 330 4770 16 18 36143
+9 305 444 178632 17 17 11621
+10 435 693 398726 34 34 6891
+11 1012 1231 256787 64 66 14111
+12 1069 1205 370133 18 22 16528
+13 656 1006 35043 22 26 26640
+14 528 660 297726 18 30 61709
+15 865 1074 1236358 33 33 1420
+16 553 703 330958 20 36 126623
+17 811 860 755288 20 41 124508
+18 1104 1195 656957 28 28 11041
+19 541 561 11775 19 24 20831
+20 556 692 259828 34 42 30693
+21 250 308 358479 37 45 33989
+22 351 510 278680 23 23 1264
+23 150 268 0 2 2 176
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 9488 11990 6456421
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 7
+Googlebot/ 72 561015 20220929080406 5
+unknown 29 13035 20220908212102 29
+(firefox/)([0-9]\.|[0-1][0]\.) 7 20966 20220904020416 1
+Googlebot\-Image/ 4 43820 20220929080406 0
+Slackbot\-LinkExpanding 3 8687 20220915143131 0
+robot 3 10206 20220915143132 0
+custo 2 13176 20220914025206 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 10
+gif 2 0 0 0
+css 697 668861 0 0
+js 1245 1338868 0 0
+ico 4 0 0 0
+jpg 147 162466 0 0
+Unknown 9378 3569479 0 0
+woff 4 0 0 0
+woff2 108 362630 0 0
+php 110 40074 0 0
+png 295 314043 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+win2003 1 1
+win7 4 4
+macosx 7 2
+linux 27 6
+ios_iphone 30 6
+win10 9259 7731
+macosx15 2638 1720
+winnt 10 4
+macosx14 14 14
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 40
+chrome49.0.1045 1 1
+chrome39.0.1932 1 0
+chrome41.0.2146 1 0
+chrome76.0.3809.132 14 14
+chrome104.0.5112.101 14 2
+chrome104.0.5112.102 12 12
+chrome50.0.815 1 0
+chrome50.0.2661.102 1 1
+safari15.4 30 6
+chrome62.0.588 1 0
+chrome85.0.4183.121 153 55
+chrome56.0.1419 1 1
+chrome55.0.2095 1 0
+chrome60.0.21 1 0
+chrome42.0.1973 1 0
+chrome91.0.4472.77 6 2
+chrome105.0.0.0 11660 9370
+chrome43.0.1529 1 0
+chrome61.0.2307 1 0
+msie7.0 1 1
+chrome41.0.99 1 1
+chrome50.0.1952 1 1
+chrome104.0.0.0 13 2
+chrome59.0.594 1 0
+chrome14.0.835.202 1 1
+chrome43.0.1302 1 0
+chrome45.0.1345 1 1
+chrome39.0.2853 1 1
+chrome60.0.22 1 1
+msie9.0 2 2
+chrome49.0.1161 1 0
+chrome44.0.665 1 0
+chrome55.0.1558 1 1
+chrome84.0.4147.105 2 2
+chrome51.0.465 1 0
+chrome103.0.0.0 14 2
+chrome72.0.3626.119 2 2
+chrome56.0.2204 1 0
+chrome62.0.1272 1 0
+chrome76.0.3809.71 41 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 133 153
+From1 0 0
+From2 1 1
+From3 1 1
+From4 9353 11835
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+https://login.microsoftonline.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+500 7 0
+404 98 288379
+302 383 128809
+400 3 0
+401 4 14834
+419 2 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 12
+/show.htm 6 -
+/auth/login/robots.txt 12 -
+/yartist.sharepoint.com/:b://s/company/ETA2snEn3fBMgiZdY9cPXvgBv5nYnw6UdVqKhhLVbk9xXA 1 https://sales-support.y-artist.work/
+/auth/login/sitemap.xml 12 -
+/vendor/exment/tinymce/skins/lightgray/skin.min.css.map 1 -
+/php/thinkphp/aaaffff123.php 2 -
+/lib/js/bignumber.js.map 9 -
+/vendor/exment/mathjs/math.min.map 9 -
+/sitemap.xml 29 -
+/vendor/laravel-admin/toastr/build/toastr.js.map 9 -
+/PhpMyAdmin/index.php 2 -
+/vendor/laravel-admin/AdminLTE/plugins/jQuery/jQuery-2.1.4.min.js%20 6 -
+END_SIDER_404
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 2
+/data/user/import 1 https://sales-support.y-artist.work/data/user
+/data/daily_report/1/sendMail 2 https://sales-support.y-artist.work/data/daily_report/1
+END_SIDER_400
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 54
+153.156.77.156 4712 5498 1392114 20220928145037
+2001:f70:80a0:3e00:f986:496f:c9b7:d415 929 1008 0 20220926130841
+2001:f70:80a0:3e00:ac55:73e6:efe:5fcd 800 910 176042 20220927210317
+2001:f70:80a0:3e00:35bb:a96e:66ce:d4e5 710 711 39899 20220926185546
+2405:6582:680:2700:d867:37a8:650:c280 636 674 450150 20220915182658
+2405:6582:680:2700:751c:3f95:4840:f0f0 306 431 0 20220923185634
+2405:6582:680:2700:9c04:4aa8:a90e:ff63 286 305 0 20220924152913
+2405:6582:680:2700:9c22:1a83:9c15:c031 163 294 0 20220923232854
+2405:6582:680:2700:f433:1df:32c6:c3ac 148 261 0 20220915101337
+2400:2410:cc63:9e00:64f3:ab19:5234:df2e 142 250 110884 20220928152959
+47.243.88.232 1 1 3035 20220903143000
+2001:f70:80a0:3e00:bc1f:111c:c236:1acb 104 127 248318 20220926210757
+47.242.17.59 1 1 3039 20220904124317
+128.14.227.202 1 1 2897 20220915064315
+2409:8c00:2411:101::8 6 18 59712 20220915050548
+47.243.22.52 1 1 3034 20220905141540
+47.243.200.56 1 1 3035 20220906201640
+47.243.20.244 1 1 3036 20220904132059
+171.34.179.23 1 1 2220 20220915170636
+2001:f70:80a0:3e00:c910:87d1:b88c:8278 97 100 0 20220926201203
+27.155.144.150 1 1 2246 20220901003718
+47.242.60.10 1 1 3036 20220903165535
+2405:6582:680:2700:61fb:83b9:b7ec:b6e2 45 169 664890 20220902001627
+163.44.26.5 2 13 141687 20220914110230
+2400:2410:cc63:9e00:585a:13f5:de7a:7648 10 125 2826 20220926095038
+2400:2200:3c7:9ea0:e43e:9c84:7a81:a8f0 3 15 143575 20220905215932
+2405:6582:680:2700:9c0a:292b:6e69:f74c 18 131 1533 20220909082646
+65.154.226.109 2 14 139464 20220913184829
+47.243.167.17 1 1 3033 20220906194625
+60.73.148.23 111 113 1459 20220928122341
+111.7.100.25 1 1 3098 20220901063138
+65.154.226.171 4 27 276728 20220913053938
+111.7.100.27 1 1 1479 20220901063242
+2400:2410:cc63:9e00:8dec:6b66:8503:2688 3 15 2641 20220913185846
+2405:6582:680:2700:81a4:a062:a85a:12f3 68 198 0 20220920232807
+47.242.157.100 1 1 3037 20220908033312
+65.154.226.167 2 14 139453 20220913184903
+153.225.20.104 74 196 2057015 20220915125740
+8.210.119.130 1 1 3040 20220908205820
+126.217.181.179 2 14 141751 20220913094154
+8.210.86.196 1 1 3035 20220908042806
+2400:2410:cc63:9e00:a01b:11f8:4dc3:6881 26 135 11581 20220927133622
+121.56.26.46 1 1 2220 20220919163027
+47.243.54.126 1 1 3035 20220908210414
+171.36.143.212 1 1 2894 20220904005250
+8.210.54.4 1 1 3038 20220905145553
+106.75.33.8 2 6 19882 20220915170709
+8.210.72.144 1 1 3036 20220908212056
+8.210.55.12 1 1 3035 20220908033956
+2405:6582:680:2700:89ef:9578:209:b28 50 175 0 20220919202528
+35.212.230.240 1 1 3237 20220929083211
+117.187.173.4 2 6 19879 20220915170643
+35.212.26.22 1 1 3230 20220924031217
+163.44.26.6 2 14 148913 20220902164001
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 22
+20220901 30 60 649745 9
+20220902 41 163 847857 4
+20220903 2 2 6071 2
+20220904 3 3 8969 3
+20220905 21 69 632763 7
+20220906 18 31 461318 3
+20220907 6 30 284844 2
+20220908 17 30 160933 8
+20220909 18 131 1533 1
+20220913 15 98 734096 6
+20220914 483 665 591837 6
+20220915 1791 2326 906638 12
+20220916 846 883 286519 2
+20220919 51 176 2220 2
+20220920 845 1246 199114 3
+20220921 1141 1199 84488 2
+20220923 566 704 0 8
+20220924 45 55 3230 3
+20220926 1850 2071 291043 5
+20220927 826 1045 187623 2
+20220928 872 1002 112343 4
+20220929 1 1 3237 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+0s-30s 53
+2mn-5mn 3
+30s-2mn 2
+15mn-30mn 5
+30mn-1h 8
+5mn-15mn 5
+1h+ 19
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 298
+/webapi/notifyPage 6176 461087 12 30
+/data/deposit 415 201973 0 0
+/data/decision_table 222 101236 0 1
+/data/deposit/1 157 123867 0 0
+/data/customer-company 130 0 0 0
+/auth/login 120 141936 67 20
+/data/customer 115 7924 0 0
+/ 110 40074 13 3
+/dashboardbox/html/5e7ff7a8637e8ae9c108 103 5671 0 1
+/data/decision_table/1 103 45072 0 0
+/data/decision_table/4/edit 1 0 0 0
+/notify/daily_report/create 2 0 0 0
+/view/decision_table/filter-condition 3 0 0 0
+/data/information/3 1 0 0 0
+/data/product/import 1 0 0 0
+/data/customer-company/4 16 0 0 0
+/column/base_info/11/edit 1 5810 0 0
+/column/base_info/13/edit 1 5792 0 0
+/data/user/import 1 154 0 0
+/notify/notifytrigger_template 5 0 0 0
+/data/customer-company/1/edit 5 0 0 0
+/table/21/edit 2 0 0 0
+/webapi/data/product/537 17 3096 0 0
+/column/deposit/144/edit 1 0 0 0
+/data/daily_report/create 5 0 0 0
+/webapi/menu/menutype 2 0 0 0
+/data/information 9 0 0 0
+/view/deposit 46 13026 0 0
+/files/4d985650-3ed7-11ed-a3a6-1bca5bbddc66 1 0 0 0
+/login_setting/1/activate 1 0 0 0
+/data/activity_history/create 2 0 0 0
+/search/relation 11 20262 0 0
+/column/base_info 16 94504 0 0
+/data/deposit/create 24 25650 0 0
+/column/information 1 0 0 0
+/webapi/data/customer/4 2 0 0 0
+/plugin/4/edit 3 0 0 0
+/dashboardbox/html/00b198b7495b130416eb 2 924 0 0
+/dashboardbox/delete/00b198b7495b130416eb 1 59 0 0
+/role_group/3 1 59 0 0
+/data/user/1 1 0 0 0
+/data/information/5 1 0 0 0
+/data/product_days_unit/import 1 0 0 0
+/workflow/1/notify 2 0 0 0
+/data/user/7 1 3417 0 0
+/column/base_info/10 1 59 0 0
+/column/decision_table 1 0 0 0
+/loginuser/2/edit 4 0 0 0
+/column/base_info/13 1 59 0 0
+/webapi/data/product/539 2 0 0 0
+/data/customer-company/3 1 0 0 0
+/webapi/table/indexcolumns 1 1610 0 0
+/webapi/menu/menutargetview 4 0 0 0
+/auth/forget 5 7016 0 0
+/form/customer 27 0 0 0
+/webapi/data/product/619 2 0 0 0
+/dashboardbox/html/74c53d2c919f11523dd5 1 0 0 0
+/loginuser 8 0 0 0
+/form/decision_table/settingModal 5 0 0 0
+/data/customer-company/create 19 0 0 0
+/data/deposit_detail/3/edit 1 0 0 0
+/form/customer/8/edit 17 0 0 0
+/role_group/4/edit 6 16131 0 0
+/view/payment/18/edit 1 0 0 0
+/auth/logs 5 0 0 0
+/data/customer/2 2 0 0 0
+/column/payment/171/edit 3 0 0 0
+/data/product_days_unit/importModal 1 0 0 0
+/workflow/beginning 3 0 0 0
+/data/product_class 14 8235 0 0
+/data/customer/create 24 0 0 0
+/auth/login/background 5 482008 0 3
+/column/customer/72/edit 3 0 0 0
+/workflow/1/modal/target 3 0 0 0
+/workflow/1/notify/1/edit 1 0 0 0
+/data/deposit/7/edit 1 0 0 0
+/loginuser/9/edit 1 0 0 0
+/data/deposit/3 2 0 0 0
+/webapi/deposit/filter-value 25 1892 0 0
+/form/decision_table/preview 1 0 0 0
+/column/activity_history 31 49872 0 0
+/data/deposit/5 3 0 0 0
+/view/user/3/edit 1 8866 0 0
+/relation/customer 4 0 0 0
+/loginuser/2 1 0 0 0
+/column/base_info/9 1 59 0 0
+/column/customer/columnTypeHtml 3 0 0 0
+/column/deposit/columnTypeHtml 2 0 0 0
+/data/payment/4 2 0 0 0
+/webapi/payment/filter-value 4 0 0 0
+/view/daily_report 1 0 0 0
+/column/deposit_detail 3 0 0 0
+/files/ed8a0c80-34ce-11ed-9d4e-3d95527419a6 5 0 0 0
+/notify/daily_report/2/edit 4 0 0 0
+/column/activity_history/198 1 1249 0 0
+/data/deposit_detail/3 1 0 0 0
+/form/customer/preview 1 0 0 0
+/auth/setting 5 16259 0 0
+/form/decision_table 4 0 0 0
+/view/deposit/create 8 0 0 0
+/data/decision_table/1/actionModal 3 0 0 0
+/dashboard/1/edit 1 2422 0 0
+/column/base_info/19 1 59 0 0
+/data/payment/create 12 11086 0 0
+/data/deposit_detail/create 3 0 0 0
+/data/payment/2/edit 3 0 0 0
+/data/product_unit 4 0 0 0
+/view/deposit/filter-condition 30 1465 0 0
+/column/activity_history/199/edit 3 0 0 0
+/template 4 0 0 0
+/form/deposit_detail/11/edit 1 0 0 0
+/favicon 75 23790 1 7
+/webapi/data/customer-company/relatedLinkage 18 1414 0 0
+/form/activity_history/20/edit 1 8003 0 0
+/column/payment 3 0 0 0
+/data/deposit/4 2 0 0 0
+/column/base_info/6/edit 1 5781 0 0
+/login_setting/create 2 0 0 0
+/column/activity_history/196/edit 2 0 0 0
+/data/daily_report 27 0 0 0
+/data/decision_table/3 5 0 0 0
+/data/information/2 1 0 0 0
+/login_setting/1/edit 3 0 0 0
+/column/deposit_detail/163/edit 1 0 0 0
+/column/base_info/12 1 59 0 0
+/workflow 4 0 0 0
+/column/activity_history/194/edit 5 0 0 0
+/install 6 0 2 1
+/data/deposit/6/edit 1 0 0 0
+/data/deposit/7/pluginClick 1 0 0 0
+/api/template/search 5 0 0 0
+/view/decision_table/create 2 0 0 0
+/column/activity_history/198/edit 4 29541 0 0
+/webapi/data/customer/5 1 0 0 0
+/column/activity_history/195/edit 2 0 0 0
+/view/activity_history 4 0 0 0
+/relation/customer/create 1 0 0 0
+/column/user 4 11633 0 0
+/data/customer/5/edit 3 0 0 0
+/view/activity_history/30/edit 2 0 0 0
+/webapi/data/deposit/calendar 73 20383 0 0
+/backup 18 0 0 0
+/files/c8948ca0-3ec1-11ed-a75d-75b78aa97957 1 0 0 0
+/data/payment 77 23250 0 0
+/dashboardbox/html/06f1dc6300343fa280d3 1 0 0 0
+/data/product_class/import 1 0 0 0
+/relation/user 1 0 0 0
+/dashboard/create 1 0 0 0
+/view/decision_table/13/edit 2 0 0 0
+/login_setting 9 0 0 2
+/relation/customer/6/edit 1 0 0 0
+/webapi/data/product/611 3 0 0 0
+/system 7 0 0 0
+/data/customer-company/4/edit 5 0 0 0
+/data/deposit/7 9 0 0 0
+/data/decision_table/4 4 0 0 0
+/webapi/data/product/542 1 0 0 0
+/column/base_info/8/edit 1 5815 0 0
+/table 29 9947 0 0
+/column/deposit 14 0 0 0
+/data/deposit/1/edit 50 29018 0 0
+/data/decision_table/create 18 15132 0 0
+/table/17/edit 3 0 0 0
+/backup/delete 1 0 0 0
+/webapi/data/product/select 1 0 0 0
+/data/deposit/1/actionModal 2 2256 0 0
+/data/product_unit/importModal 1 0 0 0
+/data/product 92 38413 0 0
+/data/daily_report/1/notifyClick 1 0 0 0
+/data/activity_history/1/edit 1 0 0 0
+/data/customer-company/2/edit 1 0 0 0
+/dashboardbox/html/c3d4d30c651c1ee83e44 1 0 0 0
+/view/payment/19/edit 4 0 0 0
+/data/customer/importModal 1 0 0 0
+/files/866e3180-395b-11ed-8536-3f79ffdc3fe1 2 0 0 0
+/form/deposit_detail/settingModal 2 0 0 0
+/webapi/decision_table/filter-value 4 0 0 0
+/data/information/1 1 0 0 0
+/column/customer 16 0 0 0
+/loginuser/1/edit 2 0 0 0
+/data/base_info 7 23008 0 0
+/workflow/1/activateModal 1 0 0 0
+/webapi/menu/menutargetvalue 4 0 0 0
+/data/payment/3 2 0 0 0
+/webapi/data/product/572 7 1443 0 0
+/role_group 9 25485 0 0
+/role_group/1 1 59 0 0
+/data/deposit_detail/2/edit 5 0 0 0
+/data/deposit/6 6 0 0 0
+/form/customer/create 2 0 0 0
+/data/customer/1/edit 15 0 0 0
+/view/decision_table 1 0 0 0
+/data/daily_report/1 5 0 0 0
+/data/deposit/1/pluginClick 7 0 0 0
+/column/deposit/150/edit 1 0 0 0
+/form/customer/settingModal 22 0 0 0
+/view/deposit/21/edit 12 10668 0 0
+/data/decision_table/1/edit 30 33576 0 0
+/data/customer/3 2 0 0 0
+/column/activity_history/columnTypeHtml 8 12151 0 0
+/data/deposit/1/shareClick 1 0 0 0
+/webapi/table/columns 1 2571 0 0
+/search 3 5348 0 0
+/data/deposit_detail/2 3 0 0 0
+/column/base_info/7 1 59 0 0
+/data/product/542 1 0 0 0
+/column/base_info/23 1 59 0 0
+/data/customer-company/2 4 0 0 0
+/view/customer/9/edit 3 0 0 0
+/column/user/columnTypeHtml 2 5782 0 0
+/data/customer-company/6/edit 1 0 0 0
+/data/organization 1 0 0 0
+/view/payment 6 0 0 0
+/column/customer/67/edit 1 0 0 0
+/view/payment/filter-condition 3 0 0 0
+/column/base_info/24 1 59 0 0
+/data/user/importModal 2 2711 0 0
+/view/deposit/26/edit 4 0 0 0
+/form/payment/settingModal 7 0 0 0
+/column/activity_history/197/edit 2 6726 0 0
+/data/customer-company/6 3 0 0 0
+/table/18/edit 6 5869 0 0
+/column/base_info/21 1 59 0 0
+/data/product_days_unit 5 7623 0 0
+/column/deposit/create 1 0 0 0
+/column/payment/171/calcModal 2 0 0 0
+/data/decision_table/2 1 0 0 0
+/data/payment_detail/create 2 0 0 0
+/data/product_class/importModal 1 0 0 0
+/workflow/1/activate 1 0 0 0
+/data/customer/4 5 0 0 0
+/data/customer-company/5 1 0 0 0
+/data/deposit_detail 2 0 0 0
+/files/efe7a730-34ce-11ed-9740-07dd567c9e56 2 18513 0 0
+/form/deposit 3 0 0 0
+/form/payment/13/edit 2 0 0 0
+/files/20dfbea0-3d4b-11ed-a23d-7f57171b6c50 1 0 0 0
+/notify/daily_report 13 0 0 0
+/column/customer/create 3 0 0 0
+/data/user 11 47218 0 0
+/form/deposit_detail 1 0 0 0
+/data/deposit/5/pluginClick 1 0 0 0
+/relation/decision_table 1 0 0 0
+/table/10/edit 1 0 0 0
+/data/product/create 4 8047 0 0
+/plugin/1/edit 1 0 0 0
+/data/product_unit/import 1 0 0 0
+/table/create 1 0 0 0
+/view/deposit/29/edit 14 0 0 0
+/table/19/edit 7 0 0 0
+/files/1f688270-34d3-11ed-aef9-799afe016046 1 0 0 0
+/column/base_info/20 1 59 0 0
+/data/payment/1 44 0 0 0
+/webapi/data/customer/1 3 0 0 0
+/data/daily_report/1/actionModal 1 0 0 0
+/webapi/data/product/575 4 0 0 0
+/column/base_info/22 1 59 0 0
+/files/cf7f1d00-3e1d-11ed-9732-092ab5de386e 1 0 0 0
+/workflow/1/edit 3 0 0 0
+/data/customer-company/1 15 0 0 0
+/view/customer 4 0 0 0
+/auth/login/header 100 1149013 0 27
+/plugin 12 0 0 0
+/data/product_class/create 1 0 0 0
+/form/deposit/14/edit 1 0 0 0
+/data/deposit/6/pluginClick 1 0 0 0
+/notify/daily_report/notify_action_target 3 0 0 0
+/table/22/edit 6 0 0 0
+/column/customer/191/edit 1 0 0 0
+/webapi/table/filterviews 1 1373 0 0
+/table/4/edit 5 0 0 0
+/form/payment 3 0 0 0
+/form/activity_history 1 5758 0 0
+/data/customer/1 60 6810 0 0
+/copy/deposit 1 0 0 0
+/files/eedf61f0-34ce-11ed-9419-1df56dfdf870 3 36582 0 0
+/role_group/2 1 59 0 0
+/form/decision_table/10/edit 4 0 0 0
+/data/payment/2 7 0 0 0
+/data/customer/5 5 0 0 0
+/notify/daily_report/2 1 0 0 0
+/column/user/create 2 11811 0 0
+/data/activity_history/1 3 0 0 0
+/data/customer/4/edit 2 0 0 0
+/data/information/4 1 0 0 0
+/data/payment/4/edit 2 0 0 0
+/webapi/data/product/573 1 0 0 0
+/dashboardbox/create 1 3662 0 0
+/view/decision_table/27/edit 4 0 0 0
+/data/payment/1/edit 14 0 0 0
+/form/activity_history/preview 1 9105 0 0
+/initialize 1 0 0 0
+/column/activity_history/create 6 7008 0 0
+/form/activity_history/settingModal 6 21860 0 0
+/workflow/create 1 0 0 0
+/auth/menu 12 4985 0 0
+/data/product/importModal 1 0 0 0
+/column/customer/193/edit 1 0 0 0
+END_SIDER

@@ -1,0 +1,419 @@
+AWSTATS DATA FILE 7.8 (build 20200416)
+# If you remove this file, all statistics for date 202210 will be lost/reset.
+# Last config file used to build this data file was /home/yartist2022/domains/sales-support.y-artist.work/awstats/.data/awstats.sales-support.y-artist.work.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 30
+POS_GENERAL 2135                
+POS_TIME 2808                
+POS_VISITOR 6725                
+POS_DAY 8452                
+POS_DOMAIN 3479                
+POS_LOGIN 3712                
+POS_ROBOT 3867                
+POS_WORMS 4156                
+POS_EMAILSENDER 4287                
+POS_EMAILRECEIVER 4430                
+POS_SESSION 8869                
+POS_SIDER 9076                
+POS_FILETYPES 4565                
+POS_DOWNLOADS 4789                
+POS_OS 4837                
+POS_BROWSER 4960                
+POS_SCREENSIZE 5102                
+POS_UNKNOWNREFERER 5176                
+POS_UNKNOWNREFERERBROWSER 5263                
+POS_ORIGIN 5345                
+POS_SEREFERRALS 5484                
+POS_PAGEREFS 5647                
+POS_SEARCHWORDS 5795                
+POS_KEYWORDS 5947                
+POS_MISC 2472                
+POS_ERRORS 6006                
+POS_CLUSTER 3568                
+POS_SIDER_403 6199                
+POS_SIDER_400 6117                
+POS_SIDER_404 6281                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221017151905 3080 924026 18957443004712
+FirstTime 0
+LastTime 20221017151905
+LastUpdate 20221018045533 3080 0 3080 0 0
+TotalVisits 43                  
+TotalUnique 30                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 30                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 5 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 236 236 0 0 0 0
+1 237 237 3275 2 3 4994
+2 236 236 91 0 0 0
+3 236 236 91 1 2 3303
+4 236 236 91 1 2 3771
+5 236 236 91 0 0 0
+6 236 236 0 0 0 0
+7 236 236 0 0 0 0
+8 236 236 182 0 0 0
+9 296 415 273 11 11 0
+10 526 776 91 12 12 1643
+11 781 3197 91 44 45 0
+12 344 453 16049 3 3 1853
+13 433 683 30231 13 13 3286
+14 511 658 267669 26 26 19505
+15 688 786 356624 16 16 1819
+16 503 644 1095841 7 7 1811
+17 328 456 74020 11 11 5775
+18 234 341 0 0 0 0
+19 236 236 0 3 14 59988
+20 272 387 91 2 2 176
+21 311 313 819 8 8 0
+22 236 236 91 0 0 0
+23 236 236 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 8060 11942 1845711
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+Googlebot/ 11 54811 20221005040426 2
+Googlebot\-Image/ 2 6352 20221005040427 0
+Slackbot\-LinkExpanding 1 3093 20221011142520 0
+robot 1 3404 20221011142521 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+php 47 11653 0 0
+png 188 47390 0 0
+Unknown 8013 656004 0 0
+jpg 84 19362 0 0
+js 2154 866709 0 0
+ico 3 0 0 0
+woff 3 0 0 0
+css 1286 92128 0 0
+woff2 164 152465 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 4
+macosx7 1 1
+win10 11332 7779
+linux 18 18
+macosx15 591 262
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 4
+chrome56.0.2924.87 18 18
+chrome106.0.0.0 11011 7552
+safari5.1.1 1 1
+chrome105.0.0.0 912 489
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 74 74
+From1 0 0
+From2 3 3
+From3 0 0
+From4 7983 11865
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 3 3
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+302 149 31728
+404 5 5484
+301 1 986
+END_ERRORS
+
+# URL with 400 errors - Hits - Last URL referrer
+BEGIN_SIDER_400 0
+END_SIDER_400
+
+# URL with 403 errors - Hits - Last URL referrer
+BEGIN_SIDER_403 0
+END_SIDER_403
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 4
+/show.htm 2 -
+/vendor/laravel-admin/toastr/build/toastr.js.map 1 -
+/lib/js/bignumber.js.map 1 -
+/vendor/exment/mathjs/math.min.map 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 30
+2400:2410:cd43:2e00:5c92:4d6d:8563:877e 3672 3779 1456 20221010081635
+153.156.77.156 1473 4518 97127 20221017134213
+2400:2410:cd43:2e00:f095:8d83:be5f:e5b5 1080 1111 273 20221007110028
+2400:2410:cd43:2e00:7c30:6c50:466a:d33f 491 491 455 20221010163548
+2001:f70:80a0:3e00:60b7:e311:a2ee:3d0d 452 459 2918 20221016164200
+2400:2410:cc63:9e00:6047:98f1:6d3f:81e9 131 139 0 20221014163718
+2400:2410:cd43:2e00:21f9:8efe:7778:a8b7 129 129 0 20221007131137
+2405:6582:680:2700:d98b:9c39:2f71:d1d0 114 236 0 20221003144805
+2400:2412:1823:58f2:5c86:29d5:521d:556 105 223 91 20221011173748
+2400:2410:cc63:9e00:646e:9d39:2a35:3108 105 118 0 20221013105656
+2400:2410:2ec0:f300:e1b3:b477:7052:55ef 28 131 1056346 20221011161207
+66.249.83.66 2 2 36833 20221011142652
+60.113.203.203 2 2 182 20221008155143
+66.249.83.70 4 4 73303 20221011142655
+2405:6582:680:2700:24d5:a273:8c3b:b8fb 26 83 75082 20221017151905 20221017151355 /auth/login/header
+74.125.212.60 1 1 34005 20221014172419
+2405:6582:680:2700:69b6:17f1:919:6e9f 61 170 0 20221016105955
+165.225.97.32 5 19 269826 20221011160317
+2400:2410:cd43:2e00:94dd:e73c:bfb8:7917 59 59 91 20221010173547
+74.125.213.62 1 1 34005 20221011142700
+2400:2410:cd43:2e00:d020:a174:96dd:1624 42 149 91 20221011105200
+74.125.212.33 2 2 36875 20221014172418
+182.138.158.229 1 1 3093 20221013014538
+74.125.212.62 1 1 3049 20221014172417
+66.249.83.68 6 6 110314 20221011142654
+2405:6582:680:2700:6d1c:8c2c:9ccc:5340 3 16 0 20221012101942
+74.125.213.60 1 1 3001 20221011142659
+2405:6582:680:2700:8a5:48a3:f740:8e5e 10 23 0 20221005111500
+2405:6582:680:2700:583a:f144:b17f:423b 48 63 0 20221007145251
+133.32.135.220 5 5 7295 20221016150745
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20221002 111 228 0 1
+20221003 198 218 30276 2
+20221004 259 503 10449 1
+20221005 10 23 0 1
+20221006 430 461 0 1
+20221007 1179 1301 273 4
+20221008 1417 1417 546 2
+20221009 1416 1416 910 1
+20221010 1039 1039 728 3
+20221011 575 1177 1594023 11
+20221012 28 45 0 2
+20221013 110 235 3093 3
+20221014 198 209 73929 5
+20221016 518 634 10213 3
+20221017 572 3036 121271 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+15mn-30mn 3
+0s-30s 11
+2mn-5mn 1
+30mn-1h 7
+1h+ 15
+5mn-15mn 3
+30s-2mn 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 110
+/webapi/notifyPage 7134 103187 10 21
+/data/deposit 150 25186 0 0
+/auth/login 61 30507 22 3
+/auth/login/header 60 337590 2 9
+/dashboardbox/html/5e7ff7a8637e8ae9c108 47 900 0 1
+/ 47 11653 3 0
+/data/deposit/7 46 7466 0 0
+/data/decision_table 36 0 0 0
+/favicon 33 3087 0 2
+/data/product 31 0 0 0
+/data/customer-company/6 3 0 0 1
+/data/product_class 11 0 0 0
+/data/product/542 2 0 0 0
+/form/decision_table/10/edit 5 0 0 0
+/column/product/83/edit 1 0 0 0
+/webapi/deposit/filter-value 9 0 0 0
+/data/deposit/8 14 0 0 0
+/data/user/30/edit 1 0 0 0
+/data/decision_table/4 17 0 0 0
+/loginuser/1/edit 2 0 0 0
+/view/deposit/21/edit 3 0 0 0
+/loginuser/2/edit 2 0 0 0
+/column/payment/175/edit 1 0 0 0
+/webapi/data/product/537 1 0 0 0
+/data/decision_table/5 5 0 0 0
+/loginuser 6 0 0 0
+/column/decision_table/121/calcModal 2 0 0 0
+/column/product 8 0 0 0
+/data/deposit_detail/16 1 0 0 0
+/table/3/edit 2 9472 0 0
+/webapi/data/customer-company/relatedLinkage 8 0 0 0
+/data/deposit/7/edit 21 0 0 0
+/data/base_info 2 0 0 0
+/column/deposit_detail 2 0 0 0
+/data/payment 3 6359 0 0
+/column/customer-company/53/edit 1 0 0 0
+/plugin/3/edit 1 0 0 0
+/column/product/82/edit 3 0 0 0
+/column/deposit/138/edit 1 0 0 0
+/view/deposit/31/edit 2 0 0 0
+/data/deposit/7/pluginClick 1 0 0 0
+/data/customer 8 0 0 0
+/laravel/exment/public/auth/login/header 2 68010 2 1
+/view/deposit/filter-condition 2 0 0 0
+/table/17/edit 1 0 0 0
+/column/decision_table/121/edit 4 0 0 0
+/data/decision_table/4/actionModal 3 0 0 0
+/data/deposit/11,12 1 0 0 0
+/column/payment 2 0 0 1
+/data/user 10 0 0 0
+/view/deposit/29/edit 5 0 0 0
+/data/user/2/edit 1 0 0 0
+/data/payment/4 2 6548 0 0
+/data/deposit/14 1 0 0 0
+/column/product_detail/92/edit 3 0 0 0
+/form/decision_table 7 0 0 0
+/data/user/42 2 0 0 0
+/data/product/create 5 0 0 0
+/data/user/1/edit 1 0 0 0
+/view/deposit 28 0 0 0
+/table/19/edit 1 0 0 0
+/data/deposit/create 10 0 0 0
+/view/deposit/26/edit 10 0 0 0
+/plugin/4/edit 1 0 0 0
+/webapi/data/product/1337 2 0 0 0
+/data/deposit/13 1 0 0 0
+/files/c421cc40-42e4-11ed-9c18-79500ec6a717 1 0 0 0
+/data/payment/4/edit 1 0 0 0
+/login_setting 3 0 0 0
+/webapi/target_table/columns/106 1 0 0 0
+/data/customer/5 4 0 0 1
+/backup 1 0 0 0
+/data/daily_report/1 4 4502 0 0
+/data/user/42/edit 1 0 0 0
+/column/decision_table 5 0 0 0
+/webapi/data/deposit/calendar 16 1203 0 0
+/view/decision_table/27/edit 2 0 0 0
+/data/deposit/11/edit 1 0 0 0
+/view/deposit/create 4 0 0 0
+/data/deposit/11 3 0 0 0
+/data/decision_table/4/edit 7 0 0 0
+/column/customer-company 1 0 0 0
+/column/deposit 4 0 0 0
+/auth/setting 1 0 0 0
+/system 3 0 0 0
+/column/product/74/edit 1 0 0 0
+/data/daily_report/1/actionModal 1 0 0 0
+/plugin 6 0 3 0
+/data/user/2 2 0 0 0
+/auth/logs 3 0 0 0
+/data/user/30 1 0 0 0
+/files/4d985650-3ed7-11ed-a3a6-1bca5bbddc66 2 0 0 0
+/laravel/exment/public/auth/login 2 5919 1 2
+/view/decision_table 1 0 0 0
+/column/product_detail 5 0 0 0
+/data/product/1337 1 0 0 0
+/data/customer-company 21 6204 0 0
+/data/user/1 3 688 0 0
+/table/13/edit 2 0 0 0
+/column/deposit_detail/160/edit 1 0 0 0
+/data/daily_report/1/edit 2 0 0 0
+/table/16/edit 1 4807 0 0
+/data/daily_report 7 12639 0 0
+/form/decision_table/settingModal 11 0 0 0
+/table 13 21730 0 0
+/data/decision_table/create 3 0 0 0
+/data/deposit/8/edit 3 0 0 0
+/data/decision_table/5/edit 3 0 0 0
+/data/user/create 2 0 0 0
+/webapi/data/customer/5 1 0 0 0
+END_SIDER

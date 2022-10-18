@@ -1,0 +1,5 @@
+Options -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^www.sales-support.y-artist.work$ [NC]
+RewriteRule ^(.*)$ http://sales-support.y-artist.work/awstats/$1 [R=301,L]
