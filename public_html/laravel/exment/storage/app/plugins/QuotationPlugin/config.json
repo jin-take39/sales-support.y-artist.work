@@ -1,0 +1,14 @@
+{
+    "plugin_name": "quotation_plugin",
+    "uuid": "b89f86f8-02c2-4157-b76e-3ec9dccb8595",
+    "plugin_view_name": "見積書出力プラグイン",
+    "description": "見積書出力プラグイン",
+    "author": "システム管理者",
+    "version": "1.0.0",
+    "plugin_type": "document",
+    "filename": "御見積書_${value:subject}_${ymd}",
+    "target_tables": "deposit",
+    "label": "見積書の作成",
+    "icon": "fa-file-excel-o",
+    "button_class": "btn-success"
+}

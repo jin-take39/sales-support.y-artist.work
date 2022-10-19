@@ -1,0 +1,14 @@
+{
+    "plugin_name": "invoice_plugin",
+    "uuid": "9e6f2790-5c95-11ec-9f10-0800200c9a66",
+    "plugin_view_name": "請求書出力プラグイン",
+    "description": "請求書出力プラグイン",
+    "author": "システム管理者",
+    "version": "1.0.0",
+    "plugin_type": "document",
+    "filename": "御請求書_${value:subject}_${ymd}",
+    "target_tables": "deposit",
+    "label": "請求書の生成",
+    "icon": "fa-file-excel-o",
+    "button_class": "btn-success"
+}

@@ -1,0 +1,14 @@
+{
+    "plugin_name": "delivery_plugin",
+    "uuid": "bf5394c0-5c8e-11ec-9f10-0800200c9a66",
+    "plugin_view_name": "納品書出力プラグイン",
+    "description": "納品書出力プラグイン",
+    "author": "システム管理者",
+    "version": "1.0.0",
+    "plugin_type": "document",
+    "filename": "納品書_${value:subject}_${ymd}",
+    "target_tables": "deposit",
+    "label": "納品書の作成",
+    "icon": "fa-file-excel-o",
+    "button_class": "btn-success"
+}
