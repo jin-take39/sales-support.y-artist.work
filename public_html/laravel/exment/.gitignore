@@ -2,6 +2,15 @@
 /public/build
 /public/hot
 /public/storage
+/storage/framework
+/storage/logs
+/storage/app/admin
+/storage/app/admin_tmp
+/storage/app/backup
+/storage/app/public
+/storage/app/purifier
+/storage/app/saml
+/storage/app/templates
 /storage/*.key
 /vendor
 .env
