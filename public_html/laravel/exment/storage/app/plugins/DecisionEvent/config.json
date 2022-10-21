@@ -1,0 +1,10 @@
+{
+    "plugin_name": "DecisionEvent",
+    "uuid": "fa7de170-992a-11e8-b568-0800200c9a66",
+    "plugin_view_name": "決定表の合計値計算イベント",
+    "description": "決定表の合計値計算イベント",
+    "author": "DecisionEvent",
+    "version": "1.0.0",
+    "plugin_type": "event",
+    "event_triggers": "saved"
+}
