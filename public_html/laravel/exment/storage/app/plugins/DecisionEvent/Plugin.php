@@ -58,7 +58,6 @@ class Plugin extends PluginEventBase
         // 利益額（売上合計 - 仕入れ額合計（税抜）- 交通費）
         // 利益率（利益額÷売上合計）
         $decisionDataList = CustomTable::getEloquent('decision_table')->getValueModel()->query()->where('id',$this->custom_value->parent_id)->get()->first()->toArray();
-        \Log::debug($decisionDataList['value']['total_amount']-$decisionDataList['value']['total_tax_exc_purchase']-$decisionDataList['value']['total_transport_exp']);
         $decision->setValueStrictly([
             'total_profit_amount' => $decisionDataList['value']['total_amount']-$decisionDataList['value']['total_tax_exc_purchase']-$decisionDataList['value']['total_transport_exp'],
             'total_profit_rate' => ($decisionDataList['value']['total_amount']-$decisionDataList['value']['total_tax_exc_purchase']-$decisionDataList['value']['total_transport_exp']) / $decisionDataList['value']['total_amount'],

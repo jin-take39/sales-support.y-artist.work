@@ -1,0 +1,12 @@
+{
+    "uuid": "b01ff6d0-54fc-11ed-9a14-0800200c9a66",
+    "plugin_name": "PluginImportAccounts",
+    "plugin_view_name": "企業・個人情報のインポート機能",
+    "description": "企業・個人情報を独自ロジックでインポートします。",
+    "author":  "jin",
+    "version": "1.0.0",
+    "plugin_type": "import",
+    "target_tables": "customer-company",
+    "label": "企業・個人",
+    "icon": "fa-files-o"
+}
