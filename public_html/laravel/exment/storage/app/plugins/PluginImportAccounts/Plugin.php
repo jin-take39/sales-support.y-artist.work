@@ -55,7 +55,9 @@ class Plugin extends PluginImportBase{
                 ,"value->prefectures" => isset($matches[1]) ? $matches[1] : ""
                 ,"value->address" => isset($matches[2]) ? $matches[2] : getCellValue("G$i", $sheet, true)
                 ,"value->postal_code" => getCellValue("H$i", $sheet, true)
-                ,"value->tel" => getCellValue("J$i", $sheet, true)
+                ,"value->representative_tel" => getCellValue("I$i", $sheet, true)
+                ,"value->extension_tel" => getCellValue("J$i", $sheet, true)
+                ,"value->fax" => getCellValue("M$i", $sheet, true)
                 ,"value->mobile" => getCellValue("K$i", $sheet, true)
                 ,"value->mail" => getCellValue("L$i", $sheet, true)
             ];
@@ -152,7 +154,9 @@ class Plugin extends PluginImportBase{
                         ,"value->prefectures" =>  $contact["value->prefectures"]
                         ,"value->address" =>  $contact["value->address"]
                         ,"value->postal_code" =>  $contact["value->postal_code"]
-                        ,"value->tel" =>  $contact["value->tel"]
+                        ,"value->representative_tel" =>  $contact["value->representative_tel"]
+                        ,"value->extension_tel" =>  $contact["value->extension_tel"]
+                        ,"value->fax" =>  $contact["value->fax"]
                         ,"value->mobile" =>  $contact["value->mobile"]
                         ,"value->mail" =>  $contact["value->mail"]
                     ]
@@ -167,7 +171,9 @@ class Plugin extends PluginImportBase{
                         "value->prefectures" =>  $contact["value->prefectures"]
                         ,"value->address" =>  $contact["value->address"]
                         ,"value->postal_code" =>  $contact["value->postal_code"]
-                        ,"value->tel" =>  $contact["value->tel"]
+                        ,"value->representative_tel" =>  $contact["value->representative_tel"]
+                        ,"value->extension_tel" =>  $contact["value->extension_tel"]
+                        ,"value->fax" =>  $contact["value->fax"]
                         ,"value->mobile" =>  $contact["value->mobile"]
                         ,"value->mail" =>  $contact["value->mail"]
                     ]
