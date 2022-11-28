@@ -1,0 +1,14 @@
+{
+    "plugin_name": "delivery_non_plugin",
+    "uuid": "711ceb90-5f70-11ed-9c9d-0800200c9a66",
+    "plugin_view_name": "納品書（押印なし）出力プラグイン",
+    "description": "納品書（押印なし）出力プラグイン",
+    "author": "システム管理者",
+    "version": "1.0.0",
+    "plugin_type": "document",
+    "filename": "納品書（押印なし）_${value:subject}_${ymd}",
+    "target_tables": "deposit",
+    "label": "納品書（押印なし）",
+    "icon": "fa-file-excel-o",
+    "button_class": "btn-success"
+}

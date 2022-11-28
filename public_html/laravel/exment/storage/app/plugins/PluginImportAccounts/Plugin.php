@@ -55,7 +55,9 @@ class Plugin extends PluginImportBase{
                 ,"value->prefectures" => isset($matches[1]) ? $matches[1] : ""
                 ,"value->address" => isset($matches[2]) ? $matches[2] : getCellValue("G$i", $sheet, true)
                 ,"value->postal_code" => getCellValue("H$i", $sheet, true)
-                ,"value->tel" => getCellValue("J$i", $sheet, true)
+                ,"value->representative_tel" => getCellValue("I$i", $sheet, true)
+                ,"value->extension_tel" => getCellValue("J$i", $sheet, true)
+                ,"value->fax" => getCellValue("M$i", $sheet, true)
                 ,"value->mobile" => getCellValue("K$i", $sheet, true)
                 ,"value->mail" => getCellValue("L$i", $sheet, true)
             ];
@@ -87,7 +89,7 @@ class Plugin extends PluginImportBase{
 
         if($data->count() == 1){
 
-            \Log::warning("【プラグイン 企業・個人情報のインポート】" . $row ."行：企業情報->「" . $account["value->company_name"] . "」は既に登録されています。");
+            \Log::warning("[Plugin Import Account Contact]" . $row ."行：企業情報->「" . $account["value->company_name"] . "」は既に登録されています。");
 
             // 企業ID設定
             $contact["value->company_name"] = $data->first()->id;
@@ -97,14 +99,14 @@ class Plugin extends PluginImportBase{
 
         }else if($data->count() >= 2){
 
-            \Log::critical("【プラグイン 企業・個人情報のインポート】" . $row ."行：企業情報->「" . $account["value->company_name"] . "」は既に2件以上登録されています。");
+            \Log::critical("[Plugin Import Account Contact]" . $row ."行：企業情報->「" . $account["value->company_name"] . "」は既に2件以上登録されています。");
 
         }else{
 
             // 企業情報登録
             $record = getModelName("customer-company")::create($account);
 
-            \Log::info("【プラグイン 企業・個人情報のインポート】" . $row ."行：企業情報->「" . $account["value->company_name"] . "」が新規で登録されました。");
+            \Log::info("[Plugin Import Account Contact]" . $row ."行：企業情報->「" . $account["value->company_name"] . "」が新規で登録されました。");
 
             // 企業ID設定
             $contact["value->company_name"] = $record->id;
@@ -126,7 +128,7 @@ class Plugin extends PluginImportBase{
 
         if($data->count()==0){
             
-            \Log::info("【プラグイン 企業・個人情報のインポート】" . $row ."行：顧客担当者情報->「" . $contact["value->customer_name"] . "」が新規で登録されました。");
+            \Log::info("[Plugin Import Account Contact]" . $row ."行：顧客担当者情報->「" . $contact["value->customer_name"] . "」が新規で登録されました。");
 
             // 顧客担当者情報登録
             getModelName("customer")::create($contact);
@@ -152,30 +154,34 @@ class Plugin extends PluginImportBase{
                         ,"value->prefectures" =>  $contact["value->prefectures"]
                         ,"value->address" =>  $contact["value->address"]
                         ,"value->postal_code" =>  $contact["value->postal_code"]
-                        ,"value->tel" =>  $contact["value->tel"]
+                        ,"value->representative_tel" =>  $contact["value->representative_tel"]
+                        ,"value->extension_tel" =>  $contact["value->extension_tel"]
+                        ,"value->fax" =>  $contact["value->fax"]
                         ,"value->mobile" =>  $contact["value->mobile"]
                         ,"value->mail" =>  $contact["value->mail"]
                     ]
                 );
-                \Log::info("【プラグイン 企業・個人情報のインポート】" . $row ."行：顧客担当者情報->「" . $contact["value->customer_name"] . "」の部署＋役職が更新されました。");
+                \Log::info("[Plugin Import Account Contact]" . $row ."行：顧客担当者情報->「" . $contact["value->customer_name"] . "」の部署＋役職が更新されました。");
             }else{
 
                 // 検索結果が1件ある場合、部署＋役職以外をUpdate
                 getModelName("customer")::where("value->customer_name",$contact["value->customer_name"])
                 ->where("value->company_name",$account_id)->update(
                     [
-                        ,"value->prefectures" =>  $contact["value->prefectures"]
+                        "value->prefectures" =>  $contact["value->prefectures"]
                         ,"value->address" =>  $contact["value->address"]
                         ,"value->postal_code" =>  $contact["value->postal_code"]
-                        ,"value->tel" =>  $contact["value->tel"]
+                        ,"value->representative_tel" =>  $contact["value->representative_tel"]
+                        ,"value->extension_tel" =>  $contact["value->extension_tel"]
+                        ,"value->fax" =>  $contact["value->fax"]
                         ,"value->mobile" =>  $contact["value->mobile"]
                         ,"value->mail" =>  $contact["value->mail"]
                     ]
                 );
-                \Log::info("【プラグイン 企業・個人情報のインポート】" . $row ."行：顧客担当者情報->「" . $contact["value->customer_name"] . "」の部署＋役職以外が更新されました。");
+                \Log::info("[Plugin Import Account Contact]" . $row ."行：顧客担当者情報->「" . $contact["value->customer_name"] . "」の部署＋役職以外が更新されました。");
             }
         }else{
-            \Log::critical("【プラグイン 企業・個人情報のインポート】" . $row ."行：顧客担当者情報->「" . $account["value->customer_name"] . "」は2件以上登録されているためスキップします。");
+            \Log::critical("[Plugin Import Account Contact]" . $row ."行：顧客担当者情報->「" . $contact["value->customer_name"] . "」は2件以上登録されているためスキップします。");
         }
     }
 }

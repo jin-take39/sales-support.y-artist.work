@@ -1,14 +1,14 @@
 {
     "plugin_name": "invoice_plugin",
     "uuid": "9e6f2790-5c95-11ec-9f10-0800200c9a66",
-    "plugin_view_name": "請求書出力プラグイン",
-    "description": "請求書出力プラグイン",
+    "plugin_view_name": "請求書（押印あり）出力プラグイン",
+    "description": "請求書（押印あり）出力プラグイン",
     "author": "システム管理者",
     "version": "1.0.0",
     "plugin_type": "document",
-    "filename": "御請求書_${value:subject}_${ymd}",
+    "filename": "御請求書（押印あり）_${value:subject}_${ymd}",
     "target_tables": "deposit",
-    "label": "請求書の生成",
+    "label": "請求書（押印あり）",
     "icon": "fa-file-excel-o",
     "button_class": "btn-success"
 }

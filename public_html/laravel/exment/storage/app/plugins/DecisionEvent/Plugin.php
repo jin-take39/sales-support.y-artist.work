@@ -12,11 +12,15 @@ class Plugin extends PluginEventBase
     {
         $reDataList = array();
 
+        \Log::debug('Event called!');
+
         // 決定表のモデル取得
         $decision = CustomTable::getEloquent('decision_table')->getValueModel($this->custom_value->parent_id);
 
         // 計算
         if($this->custom_table->table_name == "deposit"){
+
+            \Log::debug($this->custom_table->table_name);
 
             // 決定表の親IDで見積・請求取得
             $dataList = CustomTable::getEloquent('deposit')->getValueModel()->query()->where('parent_id',$this->custom_value->parent_id)->get()->toArray();
@@ -58,12 +62,14 @@ class Plugin extends PluginEventBase
         // 利益額（売上合計 - 仕入れ額合計（税抜）- 交通費）
         // 利益率（利益額÷売上合計）
         $decisionDataList = CustomTable::getEloquent('decision_table')->getValueModel()->query()->where('id',$this->custom_value->parent_id)->get()->first()->toArray();
+        \Log::debug($decisionDataList['value']['total_amount']-$decisionDataList['value']['total_tax_exc_purchase']-$decisionDataList['value']['total_transport_exp']);
         $decision->setValueStrictly([
             'total_profit_amount' => $decisionDataList['value']['total_amount']-$decisionDataList['value']['total_tax_exc_purchase']-$decisionDataList['value']['total_transport_exp'],
             'total_profit_rate' => ($decisionDataList['value']['total_amount']-$decisionDataList['value']['total_tax_exc_purchase']-$decisionDataList['value']['total_transport_exp']) / $decisionDataList['value']['total_amount'],
         ]);
         $decision->save();
 
+        \Log::debug(round(($decisionDataList['value']['total_amount']-$decisionDataList['value']['total_tax_exc_purchase']-$decisionDataList['value']['total_transport_exp']) / $decisionDataList['value']['total_amount'],10));
         return true;
     }
 
