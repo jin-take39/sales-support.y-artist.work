@@ -50,6 +50,7 @@ class Plugin extends PluginImportBase{
             // \Log::debug($matches);
             $contact = [
                 "value->customer_name" => getCellValue("C$i", $sheet, true)
+                ,"value->customer_name_kana" => getCellValue("D$i", $sheet, true)
                 ,"value->department" => getCellValue("E$i", $sheet, true)
                 ,"value->officer" => getCellValue("F$i", $sheet, true)
                 ,"value->prefectures" => isset($matches[1]) ? $matches[1] : ""
@@ -148,6 +149,7 @@ class Plugin extends PluginImportBase{
                 ->where("value->company_name",$account_id)->update(
                     [
                         "value->department" => $contact["value->department"]
+                        ,"value->customer_name_kana" => $contact["value->customer_name_kana"]
                         ,"value->officer" => $contact["value->officer"]
                         ,"value->before_department" => $data->first()->value["department"]
                         ,"value->before_position" => $data->first()->value["officer"]
@@ -169,6 +171,7 @@ class Plugin extends PluginImportBase{
                 ->where("value->company_name",$account_id)->update(
                     [
                         "value->prefectures" =>  $contact["value->prefectures"]
+                        ,"value->customer_name_kana" => $contact["value->customer_name_kana"]
                         ,"value->address" =>  $contact["value->address"]
                         ,"value->postal_code" =>  $contact["value->postal_code"]
                         ,"value->representative_tel" =>  $contact["value->representative_tel"]
